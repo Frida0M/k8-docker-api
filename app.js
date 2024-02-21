@@ -13,7 +13,7 @@ app.listen(PORT, () => {
 
 
 const db = mysql.createConnection({
-    host: 'mysql-container',
+    host: 'db-service.db-k8s.svc.cluster.local',
     user: 'root',
     password: 'password',
     database: 'mydb',

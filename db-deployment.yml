@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: db
-          image: mysql:latest
+          image: localhost:5000/db:1
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: password

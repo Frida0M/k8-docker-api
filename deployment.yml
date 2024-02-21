@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: kd-api
-          image: k8-docker-api:latest
+          image: localhost:5000/kd-api:3
           ports:
             - containerPort: 3000
